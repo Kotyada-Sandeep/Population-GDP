@@ -1,0 +1,149 @@
+
+.BoxStyle{
+    background-color: rgb(62, 62, 98);
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    text-align:center;
+    margin-right:20px;
+}
+.BoxName{
+    color: white!important;
+    text-decoration: none!important;
+}
+.Background{
+    background-image: url(/assets/Homepagebg.jpg);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.login_Background{
+    background-image: url(/assets/loginbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.rows1{
+    display: flex;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rows2{
+    display: flex;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rows3{
+    display: flex;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rows4{
+    display: flex;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered{
+    flex-direction:column;
+    width:20%;
+}
+.logostyle{
+    margin: 100px 100px 100px 50px;
+    object-fit: contain;
+}
+
+.login_logo{
+    object-fit: contain;
+    margin: auto;
+    margin-bottom:15px;
+    width:40%;
+}
+.login_input{
+    width: 100%;
+    margin: auto;
+    margin-top:15px;
+}
+.login_button{
+   width: 40%;
+   margin: auto;
+   margin-top:15px;
+   color: #fff;
+   background-color: #337ab7;
+   border-color: #2e6da4;
+}
+
+.emp_header{
+   margin:20px;
+}
+
+.emp_logo{
+   object-fit: contain;
+   margin-right: 100px;
+}
+.emp_header_font{
+   text-decoration:none;
+   font-weight:bold;
+   color:grey;
+}
+.emp_main_header{
+  font-size:20px;
+  font-weight:bold;
+  padding:10px;
+  margin-bottom:15px;
+  background-color:#80808045;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.emp_logo_excel{
+  float:right;
+}
+
+.tabs_margin{
+  margin:15px;
+}
+.tab_width{
+  width:13%;
+  margin-right:10px;
+}
+.date_picker .DateInput_input{
+    padding: 4px!important;
+    border-radius: 3px!important;
+}
+.dropdown_display{
+  display:flex;
+  margin-bottom:15px;
+}
+.date_picker .SingleDatePickerInput__withBorder{
+   width:100%;
+}
+.date_picker .SingleDatePicker{
+   width:100%;
+}
+#start_date_picker{
+   width:100%
+}
+#end_date_picker{
+   width:100%
+}
+.dropdown_display .btn-primary{
+   margin-top:6px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #119dff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
